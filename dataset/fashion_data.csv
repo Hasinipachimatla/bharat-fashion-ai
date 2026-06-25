@@ -1,0 +1,14 @@
+gender,occasion,budget,city,product,style,rating
+Female,Wedding,3000,Hyderabad,Silk Saree,Traditional,4.9
+Female,Wedding,2500,Vijayawada,Designer Kurti,Ethnic,4.5
+Female,Festival,2500,Karimnagar,Anarkali Suit,Traditional,4.7
+Female,Party,2000,Hyderabad,Western Dress,Modern,4.3
+Female,College,1500,Karimnagar,Jeans and Top,Casual,4.2
+Male,Wedding,3000,Hyderabad,Sherwani,Traditional,4.8
+Male,Festival,2500,Karimnagar,Kurta Pajama,Traditional,4.6
+Male,Party,2000,Hyderabad,Blazer,Modern,4.4
+Male,College,1500,Vijayawada,Jeans and Shirt,Casual,4.1
+Male,Office,2000,Hyderabad,Formal Shirt and Trouser,Formal,4.5
+Female,Office,2000,Vijayawada,Formal Kurti,Formal,4.4
+Female,Office,2500,Hyderabad,Blazer Set,Formal,4.6
+
