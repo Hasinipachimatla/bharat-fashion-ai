@@ -8,18 +8,18 @@ function App() {
   const [results, setResults] = useState([]);
 
   const getRecommendations = async () => {
-    try {
-      const response = await fetch(
-        `http://127.0.0.1:8000/recommend?gender=${gender}&occasion=${occasion}&budget=${budget}&city=${city}`
-      );
+  try {
+    const response = await fetch(
+      `https://bharat-fashion-ai.onrender.com/recommend?gender=${gender}&occasion=${occasion}&budget=${budget}&city=${city}`
+    );
 
-      const data = await response.json();
-      setResults(data);
-    } catch (error) {
-      console.error(error);
-      alert("Failed to connect backend");
-    }
-  };
+    const data = await response.json();
+    setResults(data);
+  } catch (error) {
+    console.error(error);
+    alert("Failed to connect backend");
+  }
+};
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
