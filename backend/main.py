@@ -12,7 +12,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-df = pd.read_csv("../dataset/fashion_data.csv")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATASET_PATH = BASE_DIR / "dataset" / "fashion_data.csv"
+
+df = pd.read_csv(DATASET_PATH)
 
 
 @app.get("/")
